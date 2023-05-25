@@ -1,0 +1,44 @@
+:root {
+  --font-family: Inter, sans-serif;
+  --font-size-base: 16px;
+  --font-size-heading: 36px;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-size: var(--font-size-heading);
+}
+
+header.thin-header {
+  background-color: transparent;
+  padding: 20px;
+	padding-left: 60px;
+  text-align: left;
+}
+
+.instagram-icon {
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  position: absolute;
+  top: 58px;
+  right: 60px;
+}
+
+footer {
+  background-color: #FFFFFF;
+  color: #878787;
+  padding: 320px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
